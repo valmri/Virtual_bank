@@ -21,6 +21,20 @@
         display: none;
     }
 
+    .responsive > .menu {
+        display: block;
+    }
+
+    ul.menu {
+        margin: 0px;
+        padding: 10px;
+        background-color: rgba(66, 52, 135, 0.445);
+    }
+
+    ul.menu > li {
+        margin: 0;
+    }
+
     .btn_info {
         display: none;
     }
@@ -28,6 +42,7 @@
     .btn_menu {
         font-size: 35px;
         color: #fff;
+        cursor: pointer;
     }
 
     main {
