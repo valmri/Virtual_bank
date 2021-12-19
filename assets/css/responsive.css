@@ -1,0 +1,41 @@
+@media(max-width: 767px) {
+
+    body {
+        margin: 0px 10px;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    span.logo {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        visibility: hidden;
+    }
+
+    .bouton {
+        visibility: hidden;
+    }
+
+    main {
+        display: block;
+    }
+
+    .infos {
+        width: 100%;
+    }
+
+    .infos > h1 {
+        font-size: 30px;
+    }
+
+    .carte {
+        visibility: hidden;
+    }
+
+}
