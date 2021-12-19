@@ -22,17 +22,30 @@
     }
 
     .responsive > .menu {
+        display: none;
+    }
+
+    .menu_ouvert {
         display: block;
     }
 
-    ul.menu {
+    .menu_ferme {
+        display: none;
+    }
+
+    #leMenu {
         margin: 0px;
         padding: 10px;
+        list-style: none;
         background-color: rgba(66, 52, 135, 0.445);
     }
 
-    ul.menu > li {
+    #leMenu  > li {
         margin: 0;
+    }
+
+    #leMenu > li > a {
+        text-decoration: none;
     }
 
     .btn_info {
