@@ -1,7 +1,11 @@
 @media(max-width: 767px) {
 
     body {
-        margin: 0px 10px;
+        margin: 15px 10px;
+    }
+
+    .responsive {
+        display: block;
     }
 
     header {
@@ -14,12 +18,16 @@
     }
 
     .menu {
-        display: block;
-        visibility: hidden;
+        display: none;
     }
 
-    .bouton {
-        visibility: hidden;
+    .btn_info {
+        display: none;
+    }
+
+    .btn_menu {
+        font-size: 35px;
+        color: #fff;
     }
 
     main {

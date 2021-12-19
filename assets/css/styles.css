@@ -50,10 +50,13 @@ span.logo {
 .bouton {
     text-decoration: none;
     padding: 14px 45px;
-    background-image: linear-gradient(to left, rgba(66, 52, 135) 50%, rgba(66, 52, 135) 50%);
     border: 1px solid rgba(205, 211, 215, 0.5);
     border-radius: 2px;
     box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.1);
+}
+
+.btn_info {
+    background-color: rgba(66, 52, 135);
 }
 
 main {
@@ -93,6 +96,10 @@ main {
     cursor: pointer;
     height: 65px;
     filter: drop-shadow(0px 0px 0px) invert(75%);
+}
+
+.responsive {
+    display: none;
 }
 
 
