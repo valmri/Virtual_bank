@@ -38,6 +38,7 @@
         padding: 10px;
         list-style: none;
         background-color: rgba(66, 52, 135, 0.445);
+        border-radius: 2px;
     }
 
     #leMenu  > li {
