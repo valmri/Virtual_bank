@@ -1,4 +1,4 @@
-@media(max-width: 767px) {
+@media(max-width: 1000px) {
 
     body {
         margin: 15px 10px;
@@ -37,9 +37,10 @@
         margin-top: 15px;
         padding: 0px;
         list-style: none;
-        background-color: rgba(44, 34, 95, 0.445);
-        border-radius: 3px;
-        border: 1px rgba(255, 255, 255, 0.5) solid;
+        background-color: rgb(44, 34, 95);
+        border: 1px rgb(255, 255, 255) solid;
+        position: absolute;
+        width: 95%;
     }
 
     #leMenu  > li:hover {
